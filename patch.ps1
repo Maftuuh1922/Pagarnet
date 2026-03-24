@@ -1,6 +1,6 @@
 $ErrorActionPreference = "Stop"
 
-Write-Host "1. Mempersiapkan file .src.js untuk di-minify..."
+Write-Host "1. Mempersiapkan update core background..."
 Copy-Item "background.src.js" "background.js" -Force
 Copy-Item "content.src.js" "content.js" -Force
 Copy-Item "popup.src.js" "popup.js" -Force
@@ -13,14 +13,14 @@ foreach ($file in $jsFiles) {
         $response = Invoke-RestMethod -Uri "https://www.toptal.com/developers/javascript-minifier/api/raw" -Method Post -Body @{ input = $content }
         Set-Content -Path $file -Value $response -Force
     } catch {
-        Write-Host "[!] Peringatan: Gagal meminifikasi $file. Menggunakan format sumber asli."
+        Write-Host "Gagal API meminifikasi $file, biarkan."
     }
 }
 
-Write-Host "2. Mendorong Update (Push) ke GitHub..."
+Write-Host "2. Uploading ke GitHub..."
 $git = "C:\Program Files\Git\cmd\git.exe"
 & $git add .
-& $git commit -m "Update Deteksi: Tambal kebocoran iklan di situs Movie Streaming (Ibosport, dll)"
+& $git commit -m "Patch: Blokir akses domain Dewasport dan web taruhan bola"
 & $git push origin main
 
-Write-Host "3. Update Selesai! Ekstensi di lokal maupun GitHub siap dipakai."
+Write-Host "Selesai"

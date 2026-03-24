@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>PagarNet — Situs Diblokir</title>
+  <title>PagarNet â€” Situs Diblokir</title>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600;700&family=DM+Mono:wght@500&display=swap" rel="stylesheet"/>
   <style>
     :root {
@@ -325,7 +325,7 @@
         </div>
         <div class="info-content">
           <div class="info-label">URL</div>
-          <div class="info-val" id="infoUrl">—</div>
+          <div class="info-val" id="infoUrl">â€”</div>
         </div>
       </div>
       <div class="info-row">
@@ -347,7 +347,7 @@
       <div style="height:16px"></div>
       <div class="score-header">
         <span class="score-title">Skor Risiko</span>
-        <span class="score-val" id="scoreVal">—<span style="font-size:13px;font-weight:500;color:var(--sub)">/100</span></span>
+        <span class="score-val" id="scoreVal">â€”<span style="font-size:13px;font-weight:500;color:var(--sub)">/100</span></span>
       </div>
       <div class="track">
         <div class="track-fill" id="trackFill"></div>
@@ -387,7 +387,7 @@
           <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
         </svg>
       </div>
-      <span class="foot-text">Dilindungi oleh <strong>PagarNet</strong> · Anti Judol &amp; Scam Indonesia</span>
+      <span class="foot-text">Dilindungi oleh <strong>PagarNet</strong> Â· Anti Judol &amp; Scam Indonesia</span>
     </div>
   </div>
 
@@ -398,7 +398,7 @@
     const category = params.get("category") || "scam";
     const reason   = decodeURIComponent(params.get("reason") || "Terdeteksi sebagai ancaman");
 
-    document.getElementById("infoUrl").textContent   = url.length > 55 ? url.slice(0, 55) + "…" : url || "—";
+    document.getElementById("infoUrl").textContent   = url.length > 55 ? url.slice(0, 55) + "â€¦" : url || "â€”";
     document.getElementById("infoReason").textContent = reason;
     document.getElementById("scoreVal").innerHTML     = `${score}<span style="font-size:13px;font-weight:500;color:var(--sub)">/100</span>`;
 
