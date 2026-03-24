@@ -39,9 +39,18 @@
     "48": "icons/icon48.png",
     "128": "icons/icon128.png"
   },
+  "declarative_net_request": {
+    "rule_resources": [
+      {
+        "id": "pagarnet_rules",
+        "enabled": true,
+        "path": "rules.json"
+      }
+    ]
+  },
   "web_accessible_resources": [
     {
-      "resources": ["blocked.html", "blocked.js"],
+      "resources": ["blocked.html", "blocked.js", "blocked-official.html"],
       "matches": ["<all_urls>"]
     }
   ]
