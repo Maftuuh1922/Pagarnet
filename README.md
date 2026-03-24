@@ -43,4 +43,3 @@ Logo PagarNet akan langsung muncul di kotak layar Chrome Anda. Mulai menit ini j
 - **Rasio ML:** Berburu dan melenyapkan spanduk/banner taruhan bola walau nama mereka disamarkan!
 - **Laporkan Kriminal:** Kirim temuan situs gelap langsung ke pusat data untuk dihanguskan negara.
 
-> *Dibuat dengan ❤️ dari Rakyat untuk Rakyat Indonesia 🇮🇩*
