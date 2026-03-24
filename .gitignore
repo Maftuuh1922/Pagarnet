@@ -1,0 +1,8 @@
+*.src.js
+install-helper.cmd
+install-helper.ps1
+test-minify.ps1
+build-protected.ps1
+Pagarnet-Protected*/
+*.zip
+task.md
