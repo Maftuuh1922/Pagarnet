@@ -1,11 +1,13 @@
 # 🛡️ PagarNet — Browser Extension Anti Judol & Scam Indonesia
 
-## Fitur Utama
+PagarNet adalah alat keamanan browser untuk mendeteksi dan memblokir situs web perjudian online (judol) dan penipuan (scam) secara otomatis sebelum terbuka, demi melindungi masyarakat Indonesia.
+
+## 🌟 Fitur Utama
 
 | Fitur | Deskripsi |
 |-------|-----------|
 | 🕵️ Deep Scan Mode | Lacak redirect chain, deteksi domain typosquatting |
-| 🔗 Hover Link Scanner | Hover di atas link → langsung muncul skor keaman |
+| 🔗 Hover Link Scanner | Hover di atas link → langsung muncul skor keamanan |
 | 🚨 Auto Blocker | Blokir otomatis situs judol & scam sebelum terbuka |
 | 📋 Paste Link Detector | Deteksi link berbahaya saat paste (cocok untuk WA Web) |
 | 🧠 Behavioral Analysis | Analisis konten halaman secara real-time |
@@ -15,107 +17,20 @@
 
 ---
 
-## Cara Install (Developer Mode)
+## 🛠️ Panduan Cara Install
 
-1. **Download / clone** folder `pagarnet/` ini
-2. Buka Chrome → ketik di address bar: `chrome://extensions`
-3. Aktifkan **Developer Mode** (toggle kanan atas)
-4. Klik **"Load unpacked"**
-5. Pilih folder `pagarnet/`
-6. Extension PagarNet akan muncul di toolbar! ✅
+Untuk memasang PagarNet ke browser Anda (Chrome / Microsoft Edge), ikuti langkah-langkah mudah berikut:
 
-> Untuk Firefox: buka `about:debugging` → "This Firefox" → "Load Temporary Add-on" → pilih `manifest.json`
-
-## Struktur File
-
-```
-pagarnet/
-├── manifest.json      # Konfigurasi extension (Manifest V3)
-├── background.js      # Engine utama: deteksi, blokir, scoring
-├── content.js         # Injected ke halaman: hover scanner, behavioral analysis
-├── popup.html         # UI popup extension
-├── popup.js           # Logic popup
-├── blocked.html       # Halaman yang muncul saat situs diblokir
-└── icons/             # Icon extension (tambahkan sendiri)
-    ├── icon16.png
-    ├── icon48.png
-    └── icon128.png
-```
+1. **Download Ekstensi:** Klik tombol berwarna hijau **"Code"** pada halaman ini, lalu pilih **"Download ZIP"**.
+2. **Ekstrak File:** Buka folder unduhan komputer Anda, klik kanan file hasil download lalu pilih **Extract All** (Ekstrak semua file ke sebuah folder yang gampang dicari, misalnya di Desktop).
+3. **Buka Pengaturan Ekstensi Browser:** 
+   - Bila Anda pakai **Chrome**, ketik `chrome://extensions` di kolom URL browser, lalu tekan Enter.
+   - Bila Anda pakai **Edge**, ketik `edge://extensions` di kolom URL browser, lalu tekan Enter.
+4. **Aktifkan Mode Pengembang:** Warnai atau nyalakan tombol/switch **Developer Mode** (Mode Pengembang) yang ada di pojok kanan atas layar browser Anda.
+5. **Install PagarNet:** Setelah Developer Mode menyala, akan muncul 3 tombol baru di kiri atas. Klik tombol **"Load unpacked"** (Muat ekstensi yang tidak dikemas).
+6. **Pilih Folder:** Cari dan klik 1 kali folder tempat Anda mengekstrak file di Langkah 2 tadi, lalu klik **Select Folder**.
+7. **Selesai!** ✅ PagarNet kini otomatis aktif dan mulai memblokir link judol / scam. Jadikan ekstensi ini icon tetap di atas toolbar Anda (*Pin to toolbar*).
 
 ---
 
-## Cara Kerja Detection Engine
-
-```
-URL masuk
-    ↓
-[1] Cek Blacklist (database domain judol/scam)
-    ↓
-[2] Keyword Analysis (slot, gacor, togel, scam, dll)
-    ↓
-[3] Typosquatting Detection (b-c-a.net meniru bca?)
-    ↓
-[4] Redirect Chain Tracker (lacak semua redirect)
-    ↓
-[5] TLD & Domain Pattern Check (.xyz, .club, dll)
-    ↓
-[Skor 0-100] → ≥50 = BLOKIR, 30-49 = WARNING, <30 = AMAN
-```
-
----
-
-## Pengembangan Selanjutnya
-
-- [ ] Server backend untuk sinkronisasi blacklist real-time
-- [ ] Integrasi API Kominfo untuk laporan resmi
-- [ ] Machine learning classifier untuk deteksi konten visual
-- [ ] QR code scanner
-- [ ] Dukungan Firefox penuh
-- [ ] Mode Parental Control
-
----
-
-## Tech Stack
-
-- **JavaScript** (Vanilla, no framework)
-- **Chrome Extension Manifest V3**
-- **Web Navigation API** untuk redirect tracking
-- **Chrome Storage API** untuk cache & statistik
-- **Chrome Notifications API** untuk alert
-
----
-
-## Push ke GitHub
-
-Repo tujuan:
-- `https://github.com/Maftuuh1922/Pagarnet.git`
-
-Set identitas git (sesuaikan jika email typo):
-
-```bash
-git config --global user.name "Maftuuh1922"
-git config --global user.email "rizkiuya12gmail.com"
-```
-
-Inisialisasi dan push:
-
-```bash
-git init
-git add .
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/Maftuuh1922/Pagarnet.git
-git push -u origin main
-```
-
-Jika remote `origin` sudah ada:
-
-```bash
-git remote set-url origin https://github.com/Maftuuh1922/Pagarnet.git
-git push -u origin main
-```
-
----
-
-Made with ❤️ untuk Indonesia 🇮🇩 — Lawan Judol, Lawan Scam!
-
+> *Made with ❤️ untuk Indonesia 🇮🇩 — Lawan Bandar Judol, Lawan Penipan Scam!*
