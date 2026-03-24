@@ -1,36 +1,46 @@
-# 🛡️ PagarNet — Browser Extension Anti Judol & Scam Indonesia
+# 🛡️ PagarNet — Pelindung Internet Bebas Judol & Scam 🇮🇩
 
-PagarNet adalah alat keamanan browser untuk mendeteksi dan memblokir situs web perjudian online (judol) dan penipuan (scam) secara otomatis sebelum terbuka, demi melindungi masyarakat Indonesia.
-
-## 🌟 Fitur Utama
-
-| Fitur | Deskripsi |
-|-------|-----------|
-| 🕵️ Deep Scan Mode | Lacak redirect chain, deteksi domain typosquatting |
-| 🔗 Hover Link Scanner | Hover di atas link → langsung muncul skor keamanan |
-| 🚨 Auto Blocker | Blokir otomatis situs judol & scam sebelum terbuka |
-| 📋 Paste Link Detector | Deteksi link berbahaya saat paste (cocok untuk WA Web) |
-| 🧠 Behavioral Analysis | Analisis konten halaman secara real-time |
-| ⚡ Panic Button | Tutup semua tab berbahaya sekaligus |
-| 🚩 Report to Kominfo | Laporkan situs langsung dari popup |
-| 📊 Dashboard Statistik | Lihat berapa judol & scam yang sudah diblokir |
+PagarNet adalah alat keamanan canggih yang otomatis melindungi browser komputer Anda dari situs judi online (judol), iklan tersembunyi, dan penipuan (scam)! 
 
 ---
 
-## 🛠️ Panduan Cara Install
+## 📖 CARA PASANG (SUPER MUDAH & PELAN-PELAN)
 
-Untuk memasang PagarNet ke browser Anda (Chrome / Microsoft Edge), ikuti langkah-langkah mudah berikut:
+Jangan khawatir jika Anda tidak jago IT! Cukup ikuti pelan-pelan langkah 1 sampai 3 di bawah ini:
 
-1. **Download Ekstensi:** Klik tombol berwarna hijau **"Code"** pada halaman ini, lalu pilih **"Download ZIP"**.
-2. **Ekstrak File:** Buka folder unduhan komputer Anda, klik kanan file hasil download lalu pilih **Extract All** (Ekstrak semua file ke sebuah folder yang gampang dicari, misalnya di Desktop).
-3. **Buka Pengaturan Ekstensi Browser:** 
-   - Bila Anda pakai **Chrome**, ketik `chrome://extensions` di kolom URL browser, lalu tekan Enter.
-   - Bila Anda pakai **Edge**, ketik `edge://extensions` di kolom URL browser, lalu tekan Enter.
-4. **Aktifkan Mode Pengembang:** Warnai atau nyalakan tombol/switch **Developer Mode** (Mode Pengembang) yang ada di pojok kanan atas layar browser Anda.
-5. **Install PagarNet:** Setelah Developer Mode menyala, akan muncul 3 tombol baru di kiri atas. Klik tombol **"Load unpacked"** (Muat ekstensi yang tidak dikemas).
-6. **Pilih Folder:** Cari dan klik 1 kali folder tempat Anda mengekstrak file di Langkah 2 tadi, lalu klik **Select Folder**.
-7. **Selesai!** ✅ PagarNet kini otomatis aktif dan mulai memblokir link judol / scam. Jadikan ekstensi ini icon tetap di atas toolbar Anda (*Pin to toolbar*).
+### Tahap 1: Download & Siapkan File
+1. Scroll ke bagian atas halaman web GitHub ini.
+2. Klik tombol hijau bertuliskan **"Code"** (ada ikon panah ke bawah).
+3. Muncul menu kecil, pilih dan klik **"Download ZIP"**. File akan langsung ter-download ke komputer Anda.
+4. Buka folder Unduhan (*Downloads*) di komputer Anda, lalu cari file ZIP yang baru saja di-download.
+5. **Klik Kanan** file ZIP tersebut, lalu pilih **"Extract All..."** (atau Ekstrak Semua). 
+6. Muncul jendela baru, klik tombol Ekstrak. Sekarang Anda punya folder warna kuning biasa bernama `pagarnet-main`. Ingat-ingat letak folder ini ya!
+
+### Tahap 2: Buka Pengaturan Google Chrome
+1. Buka browser **Google Chrome** Anda.
+2. Di baris tempat Anda biasa mengetik alamat web (seperti mau mencari sesuatu di Google), ketik tulisan persis di bawah ini:
+   👉 `chrome://extensions`
+3. Lalu tekan **Enter** di keyboard. Anda akan dibawa masuk ke halaman pengaturan.
+
+### Tahap 3: Pasang PagarNet!
+1. Di halaman pengaturan itu, lihat ujung **Kanan Atas** layar Anda.
+2. Cari tulisan **"Developer mode"** (atau Mode pengembang). Geser saklarnya ke kanan sampai berwarna biru / **Nyalakan**.
+3. Buktinya nyala, akan muncul 3 tombol baru di pojok Kiri Atas. 
+4. Klik tombol yang bernama **"Load unpacked"** (Muat ekstensi yang tidak dikemas).
+5. Akan muncul jendela pemilihan file. Cari dan **KLIK SEKALI SAJA** pada folder `pagarnet-main` (hasil dari Tahap 1 tadi). Ingat, cukup klik sekali agar terpilih, jangan masuk ke dalamnya.
+6. Terakhir, klik pelan tombol **"Select Folder"** di pojok kanan bawah.
+
+### 🎉 BERHASIL! 
+Logo PagarNet akan langsung muncul di kotak layar Chrome Anda. Mulai menit ini juga, browser Anda sudah kebal dan dilindungi AI PagarNet dari segala jebakan bandar judol dan penipu online!
+
+*(Tips: Agar logonya mudah ditekan, klik ikon seperti "potongan puzzle" di kanan atas Chrome Anda, lalu klik gambar pin/paku di sebelah teks PagarNet).*
 
 ---
 
-> *Made with ❤️ untuk Indonesia 🇮🇩 — Lawan Bandar Judol, Lawan Penipan Scam!*
+## 🌟 Fitur Hebat PagarNet
+- **Sapu Bersih (WOW Sweep):** Membantai paksa iklan-iklan judol yang berani menyelusup di web streaming anime/film.
+- **Panic Button:** Menutup instan seluruh tab/halaman berbahaya yang terbuka tanpa sengaja.
+- **Rasio ML:** Berburu dan melenyapkan spanduk/banner taruhan bola walau nama mereka disamarkan!
+- **Laporkan Kriminal:** Kirim temuan situs gelap langsung ke pusat data untuk dihanguskan negara.
+
+> *Dibuat dengan ❤️ dari Rakyat untuk Rakyat Indonesia 🇮🇩*
