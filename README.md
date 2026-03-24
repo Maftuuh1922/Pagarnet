@@ -4,9 +4,9 @@ PagarNet adalah alat keamanan canggih yang otomatis melindungi browser komputer 
 
 ---
 
-## 📖 CARA PASANG (SUPER MUDAH & PELAN-PELAN)
+## 📖 CARA PASANG 
 
-Jangan khawatir jika Anda tidak jago IT! Cukup ikuti pelan-pelan langkah 1 sampai 3 di bawah ini:
+
 
 ### Tahap 1: Download & Siapkan File
 1. Scroll ke bagian atas halaman web GitHub ini.
@@ -43,4 +43,3 @@ Logo PagarNet akan langsung muncul di kotak layar Chrome Anda. Mulai menit ini j
 - **Rasio ML:** Berburu dan melenyapkan spanduk/banner taruhan bola walau nama mereka disamarkan!
 - **Laporkan Kriminal:** Kirim temuan situs gelap langsung ke pusat data untuk dihanguskan negara.
 
-> *Dibuat dengan ❤️ dari Rakyat untuk Rakyat Indonesia 🇮🇩*
