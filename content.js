@@ -76,5 +76,5 @@
         <button onclick="this.parentElement.parentElement.remove()" style="margin-left:auto;background:none;border:none;color:#fca5a5;cursor:pointer;font-size:15px;line-height:1">&times;</button>
       </div>
       <div style="font-size:11px;color:#e05252;margin-bottom:4px;font-weight:700">${"judol"===n.category?"SITUS JUDI ONLINE":"SCAM / PENIPUAN"} \xc2\xb7 ${n.score}/100</div>
-      <div style="font-size:11px;opacity:0.75;word-break:break-all">${e.slice(0,60)}${e.length>60?"\xe2â?¬\xa6":""}</div>
+      <div style="font-size:11px;opacity:0.75;word-break:break-all">${e.slice(0,60)}${e.length>60?"\xe2Ã¢Â‚Â¬\xa6":""}</div>
     `,document.body.appendChild(i),setTimeout(()=>i.remove(),6e3)}(t,e)})})}),chrome.storage.local.get(["pagarnet_enabled","pagarnet_auto_sweep"],e=>{t=!1!==e.pagarnet_enabled,n=!1!==e.pagarnet_auto_sweep,chrome.storage.local.get("pn_ad_signatures",t=>{let e=t.pn_ad_signatures&&"object"==typeof t.pn_ad_signatures?t.pn_ad_signatures:{};o=Array.isArray(e[r])?e[r]:[],a=!0,R()})}),chrome.storage.onChanged.addListener((e,i)=>{"local"===i&&(e.pagarnet_enabled&&((t=!1!==e.pagarnet_enabled.newValue)?R():U()),e.pagarnet_auto_sweep&&(n=!1!==e.pagarnet_auto_sweep.newValue,t&&n&&W()))}),document.addEventListener("visibilitychange",()=>{"visible"===document.visibilityState&&t&&n&&W()})}();
